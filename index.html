@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Linux</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagem/logo_menu.png"><!--Icon1-->
+    <link rel="stylesheet" href="style.css"><!--Arquivo Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><!--Fonte-->
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Linux</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#text-sobre">HOME</a></li>
+                    <li class="nav-item"><a href="#text-interacoes">INTERAÇÕES</a></li>
+                    <li class="nav-item"><a href="#text-usuabilidade">USUABILIDADE</a></li>
+                    <li class="nav-item"><a href="#text-kde">KDE/GNOME</a></li>
+                    <li class="nav-item"><a href="#text-root">ROOT</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#text-instalacao">DOWNLOAD</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="imagem//menu_white_36dp.svg"></button>
+            </div>
+        </nav>
+
+        <div class="menu-mobile">
+            <ul>
+                <li class="nav-item"><a href="#text-sobre">HOME</a></li>
+                <li class="nav-item"><a href="#text-interacoes">INTERAÇÕES</a></li>
+                <li class="nav-item"><a href="#text-usuabilidade">USUABILIDADE</a></li>
+                <li class="nav-item"><a href="#text-kde">KDE/GNOME</a></li>
+                <li class="nav-item"><a href="#text-root">ROOT</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#text-instalacao">DOWNLOAD</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="text1">
+            <div id="text-sobre">
+                <h2>O que é Linux e suas distribuições?</h2>
+                <p> Linux é um sistema operacional notável, oferecendo uma alternativa robusta ao popular sistema Windows da Microsoft e ao macOS da Apple. O que torna o Linux especialmente fascinante é a diversidade de distribuições disponíveis. Cada uma delas é uma variação do sistema operacional, compartilhando o núcleo do Linux, mas diferindo em termos de programas, interfaces gráficas e configurações.</p>
+                <p>Essa variedade proporciona aos usuários a liberdade de escolher uma distribuição que esteja alinhada com suas necessidades e preferências. Algumas distribuições são pensadas para usuários avançados que buscam um controle mais profundo sobre o sistema, enquanto outras são concebidas para iniciantes, com interfaces gráficas intuitivas e processos de instalação simplificados.
+                </p>
+            </div>
+            <img class="img1" src="imagem/img1.png" width="400px">
+        </section>
+
+        <section class="text2">
+            <div id="text-interacoes">
+                <div class="title"><h2>Relação entre Linux e Windowns</h2></div>
+                <p>O Linux e o Windows têm suas próprias vantagens e desvantagens. A escolha entre eles depende das necessidades individuais. Ambos podem realizar praticamente as mesmas tarefas, mas utilizam programas diferentes para isso. É possível ter ambos os sistemas instalados no mesmo computador através do "dual boot", mas é mais fácil acessar os arquivos do Windows a partir do Linux do que o contrário.</p>
+                <p>Porém se é importante lembrar que o Linux não é o Windows; eles têm diferenças significativas. Muitos programas no Linux são equivalentes, mas não os mesmos que no Windows. Por exemplo, em vez do Word, você pode usar o OpenOffice Writer, KWrite ou Abiword. Da mesma forma, em vez do MSN, pode optar pelo aMsn, Pidgin ou kopete, entre outras opções.</p>
+                <h3>Para saber sobre outras opções clique o botão abaixo:</h3>
+                <button><a href="https://www.linuxalt.com/">Lista de programas</a></button>
+            </div>
+        </section>
+
+        <section class="text3">
+            <div id="text-instalacao">
+                <div class="title"><h2>Instalação do Linux</h2></div>
+                <p>Se você está interessado em experimentar o Linux, saiba que se trata de um sistema operacional de código aberto e gratuito, prontamente disponível para download no site do desenvolvedor ou em suas distribuições. Recomenda-se o Ubuntu para iniciantes devido à sua reputação de facilidade de uso e ao suporte robusto da comunidade.</p>
+                <p>Após obter o arquivo com a extensão .iso, será necessário gravá-lo em um CD como uma imagem. Busque a opção "criar imagem" no programa que você utiliza para gravar CDs e siga as instruções para realizar a instalação do novo sistema operacional.</p>
+                <p>Importante destacar que o Ubuntu, mencionado anteriormente, é um LiveCD, o que significa que você pode testar o sistema sem realizar qualquer instalação permanente no seu computador. Basta inserir o CD e reiniciar o sistema. No entanto, é essencial ter em mente que nenhuma modificação ou download realizado nesse modo será salvo.</p>
+                <p>Caso o sistema não inicie a partir do CD, pode ser necessário ajustar as configurações da CMOS (ou "BIOS") por meio do programa de setup. Se não estiver familiarizado com esse procedimento, é recomendável buscar orientação de um amigo experiente, de um técnico ou em fóruns online. Geralmente, o programa de setup é acessado pressionando a tecla "Del" logo após o início do computador, antes do carregamento do sistema operacional.</p>
+                <h3>Como instalar programas</h3>
+                <p>Instalar programas no Linux segue um processo diferente do Windows, mas isso não implica que seja complexo. A Canonical, a empresa responsável pelo Ubuntu, oferece uma página que explica detalhadamente como funciona a instalação de programas no Linux. Se preferir ir direto à prática, você pode pular para a seção "Instalando um Pacote", no entanto, é altamente recomendado que leia a página completa (não é muito extensa) para obter um entendimento completo do processo.</p>
+                <h3>Repositórios</h3>
+                <p>
+                Os repositórios são servidores que armazenam os programas oficiais de uma distribuição Linux, facilitando a obtenção e instalação de software. Eles oferecem uma fonte confiável e segura para os usuários, tornando a busca e instalação de programas mais simples e eficientes. Essa organização em repositórios é uma das vantagens distintivas do Linux.
+                </p>
+            </div>
+        </section>
+
+        <section class="text4">
+            <div id="text-usuabilidade">
+                <div class="title">
+                    <h2>Usabilidade e segurança</h2>
+                </div>
+                    <p>O Linux não é necessariamente complicado, mas sim diferente. Às vezes, pessoas que estão começando a usar o Linux podem se sentir um pouco desconcertadas pela abordagem distinta. No entanto, com um pouco de tempo e prática, a adaptação pode acontecer de forma natural.</p>
+                    <p>Vale ressaltar que houve grandes avanços no sentido de tornar o Linux mais acessível e user-friendly. Isso facilita bastante a transição de um sistema para o outro em comparação com o passado.</p>
+                    <p>Porém se você gosta de jogar jogos online saiba que o Linux não é para você, um dos pontos mais frágeis do Linux é a compatibilidade com jogos, mesmo que uma boa parte deles possa ser emulada por meio do Wine (como mencionado anteriormente). Embora haja uma variedade de jogos nativos para o Linux, especialmente para o Ubuntu, muitos dos títulos mais recentes e vários MMOs (jogos de multiplayer online massivos) ainda não são compatíveis com o sistema.</p>
+                    <p>Em quesito segurança embora o Linux ofereça uma segurança notavelmente maior, não é imune a possíveis ameaças. Atualmente, muitos usuários podem dispensar o uso de antivírus ou outros programas de proteção, contanto que mantenham seus aplicativos sempre atualizados. Isso é resultado da segurança intrínseca do sistema operacional Linux.</p>
+            </div>
+        </section>
+
+        <section class="text5">
+            <div id="text-kde">
+                <div class="title">
+                    <h2>O que são KDE e Gnome? Qual é melhor?</h2>
+                </div>
+                    <h3>O KDE e o GNOME são dois populares ambientes de desktop para sistemas Linux.</h3>
+                    <p><span>KDE:</span>significa K Desktop Environment. Ele é conhecido por sua interface gráfica rica em recursos e altamente configurável. O KDE oferece uma variedade de opções de personalização, permitindo que os usuários adaptem a aparência e o comportamento do ambiente de acordo com suas preferências.
+                    Ele é caracterizado por seus menus e barras de ferramentas organizados, com uma ênfase em proporcionar uma experiência de usuário eficiente e visualmente atraente.</p>
+                    <p><span>Gnome:</span>Significa GNU Network Object Model Environment. Ele tem uma abordagem mais minimalista e foca em uma experiência de usuário simplificada e direta.
+                    O GNOME é conhecido por sua interface limpa, organização intuitiva e design moderno. Ele segue a filosofia de "simplicidade é elegância".</p>
+                    <p>A escolha entre os dois é subjetiva e depende das preferências do usuário. Ambos são robustos e oferecem uma boa experiência de usuário. Experimentar ambos pode ajudar a determinar qual é o mais adequado para cada pessoa.</p>
+                </div>
+        </section>
+
+        <section class="text6">
+            <div id="text-root">
+                <div class="title"><h2> O que é “root”?</h2></div>
+                <p>O usuário root no Linux tem autoridade total no sistema, podendo realizar qualquer operação. Para tarefas como instalar programas, é necessário ter acesso como root, com uma senha definida durante a instalação. Ao instalar novos softwares, o sistema solicitará a senha de root. É vital nunca inserir essa senha em programas de fontes desconhecidas, sempre obtendo softwares de fontes confiáveis para proteger o sistema contra possíveis ameaças.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="java.js"></script><!--Javascript próprio-->
+
+    <footer>
+        <div class="rodape"><h5>Gabrielly Martins 2023-&copy Todos os direitos reservados<br> Trabalho Acadêmico-Sem fins lucrativos</h5></div>
+        <div class="ancora"><a href="#"><img src="imagem/ancora.png" width="50px"></a></div>
+    </footer>
+</body>
+</html>
